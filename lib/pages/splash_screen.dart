@@ -2,8 +2,8 @@ import 'dart:async';
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_restaurant/pages/restaurant_page.dart';
 import 'package:lottie/lottie.dart';
-import 'package:restaurant_app/pages/restaurant_page.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);

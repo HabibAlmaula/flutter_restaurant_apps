@@ -1,7 +1,6 @@
 import 'dart:convert';
-
-import 'package:restaurant_app/data/models/detail_restaurant.dart';
-import 'package:restaurant_app/data/models/restaurant.dart';
+import 'package:flutter_restaurant/data/models/detail_restaurant.dart';
+import 'package:flutter_restaurant/data/models/restaurant.dart';
 import 'package:http/http.dart' as http;
 
 class ApiService{

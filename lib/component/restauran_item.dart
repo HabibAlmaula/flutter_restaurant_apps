@@ -2,10 +2,10 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
+import 'package:flutter_restaurant/data/models/restaurant.dart';
+import 'package:flutter_restaurant/data/service/api_service.dart';
+import 'package:flutter_restaurant/pages/detail_restaurant.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:restaurant_app/data/models/restaurant.dart';
-import 'package:restaurant_app/data/service/api_service.dart';
-import 'package:restaurant_app/pages/detail_restaurant.dart';
 
 Widget restaurantItem(BuildContext context, Restaurant restaurant) {
   return Card(

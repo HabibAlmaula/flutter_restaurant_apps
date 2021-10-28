@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_restaurant/component/restauran_item.dart';
+import 'package:flutter_restaurant/data/models/detail_restaurant.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:restaurant_app/component/restauran_item.dart';
-import 'package:restaurant_app/data/models/detail_restaurant.dart';
 
 import 'circular_modal.dart';
 import 'content_modal.dart';

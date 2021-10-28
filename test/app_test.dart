@@ -1,9 +1,9 @@
+import 'package:flutter_restaurant/data/models/detail_restaurant.dart';
+import 'package:flutter_restaurant/data/models/restaurant.dart';
+import 'package:flutter_restaurant/data/service/api_service.dart';
+import 'package:flutter_restaurant/provider/database_provider.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/annotations.dart';
-import 'package:restaurant_app/data/models/detail_restaurant.dart';
-import 'package:restaurant_app/data/models/restaurant.dart';
-import 'package:restaurant_app/data/service/api_service.dart';
-import 'package:restaurant_app/provider/database_provider.dart';
 import 'package:mockito/mockito.dart';
 
 import 'app_test.mocks.dart';

@@ -3,9 +3,9 @@ import 'dart:isolate';
 import 'dart:ui';
 
 import 'package:flutter/cupertino.dart';
-import 'package:restaurant_app/data/service/api_service.dart';
-import 'package:restaurant_app/main.dart';
-import 'package:restaurant_app/utils/notification_helper.dart';
+import 'package:flutter_restaurant/data/service/api_service.dart';
+import 'package:flutter_restaurant/main.dart';
+import 'package:flutter_restaurant/utils/notification_helper.dart';
 
 final ReceivePort port = ReceivePort();
 

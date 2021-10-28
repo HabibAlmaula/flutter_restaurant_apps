@@ -2,11 +2,11 @@ import 'dart:io';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_restaurant/component/custom_dialog.dart';
+import 'package:flutter_restaurant/provider/preferences_provider.dart';
+import 'package:flutter_restaurant/provider/scheduling_provider.dart';
+import 'package:flutter_restaurant/utils/platform_widget.dart';
 import 'package:provider/provider.dart';
-import 'package:restaurant_app/component/custom_dialog.dart';
-import 'package:restaurant_app/provider/preferences_provider.dart';
-import 'package:restaurant_app/provider/scheduling_provider.dart';
-import 'package:restaurant_app/utils/platform_widget.dart';
 
 class SettingPage extends StatelessWidget {
   static const String routeName = "/settings-page";

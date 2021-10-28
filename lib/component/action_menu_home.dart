@@ -1,9 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_restaurant/pages/favourite_page.dart';
+import 'package:flutter_restaurant/pages/setting_page.dart';
 import 'package:focused_menu/focused_menu.dart';
 import 'package:focused_menu/modals.dart';
-import 'package:restaurant_app/pages/favourite_page.dart';
-import 'package:restaurant_app/pages/setting_page.dart';
 
 Widget actionButtonHome(BuildContext context) {
   return FocusedMenuHolder(

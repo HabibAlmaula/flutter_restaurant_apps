@@ -2,8 +2,8 @@ import 'dart:io';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:restaurant_app/utils/constans.dart';
-import 'package:restaurant_app/utils/navigation.dart';
+import 'package:flutter_restaurant/utils/constans.dart';
+import 'package:flutter_restaurant/utils/navigation.dart';
 
 class CustomDialogBox extends StatefulWidget {
   final String title, text;

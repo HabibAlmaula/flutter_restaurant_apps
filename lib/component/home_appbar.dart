@@ -1,8 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_restaurant/provider/restaurant_provider.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:restaurant_app/component/action_menu_home.dart';
-import 'package:restaurant_app/provider/restaurant_provider.dart';
+
+import 'action_menu_home.dart';
 
 SliverAppBar sliverAppBar(BuildContext context, RestaurantProvider provider) {
   return SliverAppBar(

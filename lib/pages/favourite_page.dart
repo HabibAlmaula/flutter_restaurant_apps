@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_restaurant/component/loading_item.dart';
+import 'package:flutter_restaurant/component/restauran_item.dart';
+import 'package:flutter_restaurant/provider/database_provider.dart';
 import 'package:provider/provider.dart';
-import 'package:restaurant_app/component/loading_item.dart';
-import 'package:restaurant_app/component/restauran_item.dart';
-import 'package:restaurant_app/provider/database_provider.dart';
 
 class FavouritePage extends StatelessWidget {
   static const String routeName = "/favourite-page";

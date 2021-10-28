@@ -1,13 +1,13 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_restaurant/component/home_appbar.dart';
+import 'package:flutter_restaurant/component/loading_item.dart';
+import 'package:flutter_restaurant/component/restauran_item.dart';
+import 'package:flutter_restaurant/component/shimmer_restaurant.dart';
+import 'package:flutter_restaurant/provider/restaurant_provider.dart';
+import 'package:flutter_restaurant/utils/loading.dart';
 import 'package:provider/provider.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';
-import 'package:restaurant_app/component/home_appbar.dart';
-import 'package:restaurant_app/component/loading_item.dart';
-import 'package:restaurant_app/component/restauran_item.dart';
-import 'package:restaurant_app/component/shimmer_restaurant.dart';
-import 'package:restaurant_app/provider/restaurant_provider.dart';
-import 'package:restaurant_app/utils/loading.dart';
 
 class RestaurantPage extends StatefulWidget {
   const RestaurantPage({Key? key}) : super(key: key);

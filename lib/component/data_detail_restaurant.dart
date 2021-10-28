@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_restaurant/data/models/detail_restaurant.dart';
+import 'package:flutter_restaurant/data/models/restaurant.dart';
+import 'package:flutter_restaurant/data/service/api_service.dart';
+import 'package:flutter_restaurant/provider/database_provider.dart';
 import 'package:provider/provider.dart';
 import 'package:flash/flash.dart';
-import 'package:restaurant_app/component/main_content_detail.dart';
-import 'package:restaurant_app/data/models/detail_restaurant.dart';
-import 'package:restaurant_app/data/models/restaurant.dart';
-import 'package:restaurant_app/data/service/api_service.dart';
-import 'package:restaurant_app/provider/database_provider.dart';
+
+import 'main_content_detail.dart';
 
 class DataDetail extends StatelessWidget {
   final ScrollController _scrollController = ScrollController();

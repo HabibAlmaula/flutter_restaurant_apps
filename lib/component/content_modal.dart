@@ -4,7 +4,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:lottie/lottie.dart';
-import 'package:restaurant_app/component/custom_dialog.dart';
+
+import 'custom_dialog.dart';
 
 class ModalContent extends StatelessWidget {
   final List<String>? content;

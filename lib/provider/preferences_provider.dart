@@ -1,5 +1,5 @@
 import 'package:flutter/foundation.dart';
-import 'package:restaurant_app/preferences/preferences_helper.dart';
+import 'package:flutter_restaurant/preferences/preferences_helper.dart';
 
 class PreferencesProvider extends ChangeNotifier{
   PreferencesHelper preferencesHelper;
