@@ -1,4 +1,4 @@
-name: flutter_restaurant_apps
+name: flutter_restaurant
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -29,11 +29,32 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  json_annotation: ^4.3.0
 
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  flutter_svg: ^0.23.0+1
+  modal_bottom_sheet: ^2.0.0
+  flutter_rating_bar: ^4.0.0
+  lottie: ^1.2.1
+  http: ^0.13.4
+  provider: ^6.0.1
+  shimmer: ^2.0.0
+  pull_to_refresh: ^2.0.0
+  google_fonts: ^2.1.0
+  sqflite: ^2.0.0+4
+  shared_preferences: ^2.0.8
+  android_alarm_manager: ^2.0.2
+  intl: ^0.17.0
+  flutter_local_notifications: ^9.0.1
+  rxdart: ^0.27.2
+  flutter_portal: ^0.4.0
+  focused_menu: ^1.0.5
+  flash: ^2.0.3
+  get: ^4.3.8
+  mockito: ^5.0.16
 
 dev_dependencies:
   flutter_test:
@@ -45,6 +66,9 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^1.0.0
+  build_runner: ^2.1.4
+  json_serializable: ^6.0.0
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -58,8 +82,9 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+     - assets/images/
+     - assets/json/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
